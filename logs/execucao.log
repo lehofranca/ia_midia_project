@@ -1,0 +1,52 @@
+ 2025-10-23 18:23:58 | INFO     | utils.logger: configurar_logger:64 - Logger configurado em nível INFO. Arquivo: logs\execucao.log
+ 2025-10-23 18:23:58 | INFO     | __main__: executar_otimizacao:41 - 🚀 Iniciando processo de otimização e engajamento...
+
+ 2025-10-23 18:23:58 | ERROR    | __main__: main:64 - Erro inesperado: name 'df' is not defined
+Traceback (most recent call last):
+
+  File "C:\Users\Usuario\OneDrive\Documentos\Trabalho\ia_midia_project\main.py", line 67, in <module>
+    main()
+    └ <function main at 0x0000024F7205ECA0>
+
+> File "C:\Users\Usuario\OneDrive\Documentos\Trabalho\ia_midia_project\main.py", line 58, in main
+    executar_otimizacao(df)
+    │                   └ None
+    └ <function executar_otimizacao at 0x0000024F7205ED40>
+
+  File "C:\Users\Usuario\OneDrive\Documentos\Trabalho\ia_midia_project\main.py", line 43, in executar_otimizacao
+    modelo, r2, = prever_engajamento(df, plot=True)
+                  └ <function prever_engajamento at 0x0000024F57201E40>
+
+NameError: name 'df' is not defined
+ 2025-10-24 10:42:19 | INFO     | utils.logger: configurar_logger:64 - Logger configurado em nível INFO. Arquivo: logs\execucao.log
+ 2025-10-24 10:42:19 | INFO     | __main__: executar_otimizacao:41 - 🚀 Iniciando processo de otimização e engajamento...
+
+ 2025-10-24 10:42:19 | ERROR    | __main__: main:66 - Erro inesperado: 'NoneType' object has no attribute 'columns'
+Traceback (most recent call last):
+
+  File "C:\Users\Usuario\OneDrive\Documentos\Trabalho\ia_midia_project\main.py", line 69, in <module>
+    main()
+    └ <function main at 0x000002ABD3786CA0>
+
+> File "C:\Users\Usuario\OneDrive\Documentos\Trabalho\ia_midia_project\main.py", line 60, in main
+    executar_otimizacao(df)
+    │                   └ None
+    └ <function executar_otimizacao at 0x000002ABD3786D40>
+
+  File "C:\Users\Usuario\OneDrive\Documentos\Trabalho\ia_midia_project\main.py", line 43, in executar_otimizacao
+    modelo, r2 = prever_engajamento(df, plot=True)
+                 │                  └ None
+                 └ <function prever_engajamento at 0x000002ABB8985E40>
+
+  File "C:\Users\Usuario\OneDrive\Documentos\Trabalho\ia_midia_project\modules\otimizacao_engajamento.py", line 27, in prever_engajamento
+    if col not in df.columns:
+       │          └ None
+       └ 'hora_postagem'
+
+AttributeError: 'NoneType' object has no attribute 'columns'
+ 2025-10-24 10:44:48 | INFO     | utils.logger: configurar_logger:64 - Logger configurado em nível INFO. Arquivo: logs\execucao.log
+ 2025-10-24 10:44:48 | INFO     | __main__: carregar_dados:34 -  Dados carregados com sucesso! (5 registros)
+ 2025-10-24 10:44:48 | INFO     | __main__: executar_otimizacao:41 - 🚀 Iniciando processo de otimização e engajamento...
+
+ 2025-10-24 15:31:38 | INFO     | __main__: executar_otimizacao:44 - Acurácia R² do modelo: -761.385
+ 2025-10-24 15:31:38 | WARNING  | __main__: executar_otimizacao:47 - Resultado negativo indica que o modelo ainda precisa de ajustes.
