@@ -1,0 +1,104 @@
+{
+    // ================================
+    // 🎨 VISUAL E TEMAS
+    // ================================
+    "workbench.colorTheme": "One Dark Pro",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontFamily": "Fira Code, Cascadia Code, monospace",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 16,
+    "editor.lineHeight": 1.6,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "window.zoomLevel": 0,
+
+    // ================================
+    // 🧱 CÓDIGO E INDENTAÇÃO
+    // ================================
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "editor.renderWhitespace": "all",
+    "editor.guides.indentation": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+
+    // ================================
+    // 🧹 FORMATAÇÃO E ORGANIZAÇÃO
+    // ================================
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "python.formatting.provider": "black",
+    "python.linting.enabled": true,
+    "python.linting.ruffEnabled": true,
+    "python.linting.ruffArgs": ["--fix"],
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1200,
+
+    // ================================
+    // 🧭 TERMINAL E INTEGRAÇÃO
+    // ================================
+    "terminal.integrated.fontFamily": "Fira Code, monospace",
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.typeCheckingMode": "basic",
+
+    // ================================
+    // 💾 EXPLORER E ORGANIZAÇÃO DE PROJETO
+    // ================================
+    "explorer.compactFolders": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "breadcrumbs.enabled": true,
+
+    // ================================
+    // 🧠 AI / SUGESTÕES INTELIGENTES
+    // ================================
+    "editor.suggest.preview": true,
+    "editor.suggest.showIcons": true,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+
+    // ================================
+    // 🧪 TESTES E PYTHON VENV
+    // ================================
+    "python.terminal.activateEnvironment": true,
+    "python.defaultInterpreterPath": "${workspaceFolder}/venv/Scripts/python.exe",
+
+    // ================================
+    // 💡 QUALIDADE DE VIDA
+    // ================================
+    "workbench.startupEditor": "none",
+    "workbench.editor.enablePreview": false,
+    "window.restoreWindows": "all",
+    "workbench.statusBar.visible": true,
+
+    // ================================
+    // 🌌 CUSTOM CYBER STUDIO
+    // ================================
+    "workbench.colorCustomizations": {
+        "editor.background": "#1e1e2f",
+        "editor.foreground": "#cfd8ff",
+        "editorCursor.foreground": "#00f0ff",
+        "editor.lineHighlightBackground": "#2b2b4f",
+        "editor.selectionBackground": "#2b2b4f",
+        "editor.selectionHighlightBackground": "#7b5cff",
+        "editorBracketMatch.background": "#00f0ff",
+        "editorBracketMatch.border": "#7b5cff",
+        "terminal.background": "#1e1e2f",
+        "terminal.foreground": "#cfd8ff"
+    },
+    "editor.tokenColorCustomizations": {
+        "comments": { "foreground": "#b695e0", "fontStyle": "italic" },
+        "keywords": "#00f0ff",
+        "strings": "#b695e0",
+        "numbers": "#00f0ff",
+        "functions": "#00f0ff",
+        "variables": "#d0d0ff"
+    }
+}

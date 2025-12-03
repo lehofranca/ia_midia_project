@@ -1,24 +1,9 @@
-# requirements.txt
-# -----------------------------
-# Dependências principais do projeto IA Mídia
-# -----------------------------
-
-# Manipulação de dados
 pandas==2.2.2
-
-# Machine Learning
 scikit-learn==1.5.1
-
-# Visualização
 matplotlib==3.9.2
 seaborn==0.13.2
-
-# Utilitários do sistema
 python-dotenv==1.0.1
-
-# Logs e monitoramento
 loguru==0.7.2
-
-
-📦 Depois, para instalar tudo:
-pip install -r requirements.txt
+instaloader==4.11
+sqlalchemy==2.0.23
+pytest==7.4.4

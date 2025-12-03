@@ -50,3 +50,57 @@ AttributeError: 'NoneType' object has no attribute 'columns'
 
  2025-10-24 15:31:38 | INFO     | __main__: executar_otimizacao:44 - Acurácia R² do modelo: -761.385
  2025-10-24 15:31:38 | WARNING  | __main__: executar_otimizacao:47 - Resultado negativo indica que o modelo ainda precisa de ajustes.
+ 2025-10-28 11:11:48 | INFO     | utils.logger: configurar_logger:64 - Logger configurado em nível INFO. Arquivo: logs\execucao.log
+ 2025-10-28 11:12:05 | WARNING  | __main__: coletar_dados_instagram:40 - Não foi possível coletar dados do Instagram: JSON Query to graphql/query: 401 Unauthorized - "fail" status, message "Please wait a few minutes before you try again." when accessing https://www.instagram.com/graphql/query?variables=%7B%22data%22%3A%7B%22count%22%3A12%2C%22include_relationship_info%22%3Atrue%2C%22latest_besties_reel_media%22%3Atrue%2C%22latest_reel_media%22%3Atrue%7D%2C%22username%22%3A%22thoughtsunfolded_mdf%22%2C%22__relay_internal__pv__PolarisFeedShareMenurelayprovider%22%3Afalse%7D&doc_id=7898261790222653&server_timestamps=true
+ 2025-10-28 11:12:06 | INFO     | __main__: carregar_dados:56 -  Dados carregados com sucesso! (5 registros)
+ 2025-10-28 11:12:06 | INFO     | __main__: executar_otimizacao:63 - 🚀 Iniciando processo de otimização e engajamento...
+
+ 2025-10-28 11:12:24 | INFO     | __main__: executar_otimizacao:66 - Acurácia R² do modelo: -761.385
+ 2025-10-28 11:12:24 | WARNING  | __main__: executar_otimizacao:69 - Resultado negativo indica que o modelo ainda precisa de ajustes.
+ 2025-10-30 10:06:11 | INFO     | utils.logger: configurar_logger:61 - Logger configurado em nível INFO. Arquivo: logs\execucao.log
+ 2025-10-30 10:06:13 | WARNING  | __main__: coletar_dados_instagram:51 - Não foi possível coletar dados do Instagram: Login error: "fail" status, message "".
+ 2025-10-30 10:06:13 | INFO     | __main__: carregar_dados:68 -  Dados carregados com sucesso! (5 registros)
+ 2025-10-30 10:06:13 | INFO     | __main__: executar_otimizacao:76 - 🚀 Iniciando processo de otimização e engajamento...
+
+ 2025-10-30 10:19:57 | INFO     | utils.logger: configurar_logger:61 - Logger configurado em nível INFO. Arquivo: logs\execucao.log
+ 2025-10-30 10:20:01 | WARNING  | __main__: coletar_dados_instagram:51 - Não foi possível coletar dados do Instagram: Login error: "fail" status, message "".
+ 2025-10-30 10:20:01 | INFO     | __main__: carregar_dados:68 -  Dados carregados com sucesso! (5 registros)
+ 2025-10-30 10:20:01 | INFO     | __main__: executar_otimizacao:76 - 🚀 Iniciando processo de otimização e engajamento...
+
+ 2025-10-30 13:49:26 | INFO     | __main__: executar_otimizacao:79 - Acurácia R² do modelo: -761.385
+ 2025-10-30 13:49:26 | WARNING  | __main__: executar_otimizacao:82 - Resultado negativo indica que o modelo ainda precisa de ajustes.
+ 2025-10-30 14:19:04 | INFO     | utils.logger: configurar_logger:61 - Logger configurado em nível INFO. Arquivo: logs\execucao.log
+ 2025-10-30 14:19:06 | WARNING  | __main__: coletar_dados_instagram:51 - Não foi possível coletar dados do Instagram: Login error: "fail" status, message "".
+ 2025-10-30 14:19:06 | INFO     | __main__: carregar_dados:68 -  Dados carregados com sucesso! (5 registros)
+ 2025-10-30 14:19:06 | INFO     | __main__: executar_otimizacao:76 - 🚀 Iniciando processo de otimização e engajamento...
+
+ 2025-10-30 14:49:15 | INFO     | utils.logger: configurar_logger:61 - Logger configurado em nível INFO. Arquivo: logs\execucao.log
+ 2025-10-30 14:49:16 | WARNING  | __main__: coletar_dados_instagram:51 - Não foi possível coletar dados do Instagram: Login error: "fail" status, message "".
+ 2025-10-30 14:49:16 | INFO     | __main__: carregar_dados:68 -  Dados carregados com sucesso! (5 registros)
+ 2025-10-30 14:49:16 | INFO     | __main__: executar_otimizacao:76 - 🚀 Iniciando processo de otimização e engajamento...
+
+ 2025-10-30 14:49:36 | INFO     | __main__: executar_otimizacao:79 - Acurácia R² do modelo: -761.385
+ 2025-10-30 14:49:36 | WARNING  | __main__: executar_otimizacao:82 - Resultado negativo indica que o modelo ainda precisa de ajustes.
+ 2025-10-30 15:13:30 | INFO     | utils.logger: configurar_logger:61 - Logger configurado em nível INFO. Arquivo: logs\execucao.log
+ 2025-10-30 15:13:34 | WARNING  | __main__: coletar_dados_instagram:54 - Não foi possível coletar dados do Instagram: Login error: "fail" status, message "".
+ 2025-10-30 15:13:34 | INFO     | __main__: carregar_dados:71 - 📊 Dados carregados com sucesso! (5 registros)
+ 2025-10-30 15:13:34 | INFO     | __main__: executar_otimizacao:79 - 🚀 Iniciando processo de otimização e engajamento...
+
+ 2025-10-30 15:13:38 | INFO     | __main__: executar_otimizacao:82 - Acurácia R² do modelo: -761.385
+ 2025-10-30 15:13:38 | WARNING  | __main__: executar_otimizacao:85 - Resultado negativo indica que o modelo ainda precisa de ajustes.
+ 2025-10-30 19:00:01 | INFO     | __main__: executar_otimizacao:79 - Acurácia R² do modelo: -761.385
+ 2025-10-30 19:00:01 | WARNING  | __main__: executar_otimizacao:82 - Resultado negativo indica que o modelo ainda precisa de ajustes.
+ 2025-10-31 09:45:38 | INFO     | utils.logger: configurar_logger:61 - Logger configurado em nível INFO. Arquivo: logs\execucao.log
+ 2025-10-31 09:45:41 | WARNING  | __main__: coletar_dados_instagram:54 - Não foi possível coletar dados do Instagram: Login error: "fail" status, message "".
+ 2025-10-31 09:45:41 | INFO     | __main__: carregar_dados:71 - 📊 Dados carregados com sucesso! (5 registros)
+ 2025-10-31 09:45:41 | INFO     | __main__: executar_otimizacao:79 - 🚀 Iniciando processo de otimização e engajamento...
+
+ 2025-10-31 09:45:46 | INFO     | __main__: executar_otimizacao:82 - Acurácia R² do modelo: -761.385
+ 2025-10-31 09:45:46 | WARNING  | __main__: executar_otimizacao:85 - Resultado negativo indica que o modelo ainda precisa de ajustes.
+ 2025-11-03 03:22:27 | INFO     | utils.logger: configurar_logger:61 - Logger configurado em nível INFO. Arquivo: logs\execucao.log
+ 2025-11-03 03:22:34 | WARNING  | __main__: coletar_dados_instagram:54 - Não foi possível coletar dados do Instagram: JSON Query to graphql/query: 401 Unauthorized - "fail" status, message "Please wait a few minutes before you try again." when accessing https://www.instagram.com/graphql/query?variables=%7B%22data%22%3A%7B%22count%22%3A12%2C%22include_relationship_info%22%3Atrue%2C%22latest_besties_reel_media%22%3Atrue%2C%22latest_reel_media%22%3Atrue%7D%2C%22username%22%3A%22perfil_exemplo%22%2C%22__relay_internal__pv__PolarisFeedShareMenurelayprovider%22%3Afalse%7D&doc_id=7898261790222653&server_timestamps=true
+ 2025-11-03 03:22:34 | INFO     | __main__: carregar_dados:71 - 📊 Dados carregados com sucesso! (5 registros)
+ 2025-11-03 03:22:34 | INFO     | __main__: executar_otimizacao:79 - 🚀 Iniciando processo de otimização e engajamento...
+
+ 2025-11-03 03:40:28 | INFO     | __main__: executar_otimizacao:82 - Acurácia R² do modelo: -761.385
+ 2025-11-03 03:40:28 | WARNING  | __main__: executar_otimizacao:85 - Resultado negativo indica que o modelo ainda precisa de ajustes.

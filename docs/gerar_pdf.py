@@ -8,7 +8,7 @@ config = pdfkit.configuration(
 )
 
 # Seu conteúdo em Markdown:
-md_text="""
+md_text = """
 # IA Mídia Project
 Projeto de demonstração de análise de tendências, geração de resumos e otimização de engajamento de posts 
 em redes sociais utilizando Inteligência Artificial.
@@ -20,5 +20,4 @@ html_text = f'<meta charset= "UTF-8"> {html_text}'
 
 # Gerar PDF
 pdfkit.from_string(html_text, "IA_Mídia_Project.pdf", configuration=config)
-print ("PDF gerado com sucesso!")
-
+print("PDF gerado com sucesso!")
